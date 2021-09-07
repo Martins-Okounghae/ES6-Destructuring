@@ -3,7 +3,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import cars from "./practice"
 
-//console.log(cars);
 const [honda, tesla] = cars;
 
 const {
@@ -19,7 +18,7 @@ const {coloursByPopularity:[hondaTopColour]}= honda;
 
 const {coloursByPopularity:[teslaTopColour]}=tesla;
 
-//console.log(honda);
+
 ReactDOM.render(
   <table>
     <tr>
